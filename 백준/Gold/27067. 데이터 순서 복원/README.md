@@ -1,4 +1,4 @@
-# [Gold II] 데이터 순서 복원 - 27067 
+# [Gold III] 데이터 순서 복원 - 27067 
 
 [문제 링크](https://www.acmicpc.net/problem/27067) 
 
