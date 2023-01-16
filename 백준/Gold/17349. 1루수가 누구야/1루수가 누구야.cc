@@ -26,7 +26,7 @@ int main() {
     int answer = 0;
     for(auto i : ans) {
         if(i && !answer) answer = i;
-        else if(i && answer) answer = -1;
+        else if(i) answer = -1;
     }
     if(!answer || answer == -1) cout << "-1";
     else cout << answer;
