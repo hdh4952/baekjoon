@@ -16,7 +16,7 @@ int main() {
   REP(i, 1, L) {
     cin >> ch;
     ai = ch - 'a' + 1;
-    H += ((ai % M) * (r % M)) % M;
+    H += (ai * r) % M;
     r *= 31;
   }
 
